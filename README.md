@@ -20,6 +20,8 @@ This will generate a .hpi file in the target directory that you can install on y
 mvn clean install
 ```
 
+NOTE: If you receive errors while the tests run, ensure you use JDK 12
+
 ## Installation
 Copy the ./target/zap-pipeline.hpi file to the $JENKINS_HOME/plugins directory and restart Jenkins.
 You can also use the plugin management console (Manage Jenkins -> Manage Plugins -> Advanced -> Upload Plugin)
