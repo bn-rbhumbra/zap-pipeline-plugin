@@ -31,6 +31,8 @@ public interface ZapDriver {
 
     void importUrls(String path) throws ZapExecutionException;
 
+    void importOpenApi(String path) throws ZapExecutionException;
+
     void loadSession(String sessionPath) throws ZapExecutionException;
 
     void loadPolicy(String policy) throws ZapExecutionException;

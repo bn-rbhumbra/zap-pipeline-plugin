@@ -77,6 +77,11 @@ public class ZapDriverStub implements ZapDriver {
     }
 
     @Override
+    public void importOpenApi(String path) {
+        // Do nothing
+    }
+
+    @Override
     public void loadSession(String sessionPath) {
         loadedSessionPath = sessionPath;
     }
